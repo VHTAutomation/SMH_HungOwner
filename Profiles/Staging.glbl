@@ -4,4 +4,29 @@
    <name>Staging</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.viettel.VHTHome.dev\r\n'</initValue>
+      <name>appID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0969073634'</initValue>
+      <name>user_share</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>pass_user_share</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test@123'</initValue>
+      <name>ma_hoa_live</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test@1234'</initValue>
+      <name>new_pass_ma_hoa</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'com.viettel.VHTHome.dev\r\n'</initValue>
+      <initValue>'com.viettel.VHTHome.dev'</initValue>
       <name>appID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

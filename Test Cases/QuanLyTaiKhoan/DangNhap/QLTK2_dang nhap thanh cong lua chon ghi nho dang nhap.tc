@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLTK2_dang nhap thanh cong lua chon ghi nho dang nhap</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4f5c17a4-2673-48c0-8c7e-b953d02c7f60</testCaseGuid>
+</TestCaseEntity>

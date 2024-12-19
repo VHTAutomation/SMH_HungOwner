@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSN20_Xoa thanh vien khi tài khoan chua chap nhan chia se nha</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ed5ec0d0-26ec-4f81-95ad-5e9b0a30d30c</testCaseGuid>
+</TestCaseEntity>

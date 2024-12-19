@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLGM2_Thêm GM thanh cong khi truoc do da co guong mat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6fb6c368-00da-407a-a751-bd1ae55e2914</testCaseGuid>
+</TestCaseEntity>

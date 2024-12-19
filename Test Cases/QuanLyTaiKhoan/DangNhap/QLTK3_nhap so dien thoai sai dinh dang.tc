@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLTK3_nhap so dien thoai sai dinh dang</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>853cad51-033b-463d-a68d-74bde82d32bc</testCaseGuid>
+</TestCaseEntity>

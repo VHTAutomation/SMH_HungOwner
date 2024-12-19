@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLTK5_dang nhap bang mat khau khong chinh xac</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4f2655f-f649-49c4-9243-25437fe3db10</testCaseGuid>
+</TestCaseEntity>

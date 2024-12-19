@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TGC6_Tang goi Cloud khong thanh cong do de trong Serial Camera</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33d0126f-43f7-4af1-bd14-75ae9380b515</testCaseGuid>
+</TestCaseEntity>

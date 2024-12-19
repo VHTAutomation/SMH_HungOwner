@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLTK1_dang nhap thanh cong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2cf58320-c8be-4ba5-89ae-e65da8c9e999</testCaseGuid>
+</TestCaseEntity>

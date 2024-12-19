@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+<<<<<<< HEAD
+=======
+   <GlobalVariableEntity>
+      <description>Biến môi trườn Product</description>
+      <initValue>'com.viettel.vhome2&amp;hl=vi'</initValue>
+      <name>Environment_pro</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Toast thông báo khi tên nhà không được để trống</description>
+      <initValue>'Tên nhà không được để trống'</initValue>
+      <name>toasttennhatrong</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Toast thông báo tên nhà đã được sử dụng</description>
+      <initValue>'Tên nhà đã được sử dụng'</initValue>
+      <name>toasttennhadasudung</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tài khoản được chia sẻ nhà</description>
+      <initValue>'0356573351'</initValue>
+      <name>user_shared</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Biệt danh của tài khoản được chia sẻ với quyền Admin</description>
+      <initValue>'Thu Giang'</initValue>
+      <name>Bietdanh_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>UserShared_MK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nhà được chia sẻ với quyền Admin</description>
+      <initValue>'My Home'</initValue>
+      <name>houseNameShared_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tài khoản chia sẻ</description>
+      <initValue>'0379254066'</initValue>
+      <name>user_share</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mật khẩu của tài khoản chia sẻ</description>
+      <initValue>'Viettel@123'</initValue>
+      <name>user_share_MK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mật khẩu của tài khoản được chia sẻ</description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>user_shared_MK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nhà chia sẻ với quyền thành viên</description>
+      <initValue>'Nhà Chia Sẻ'</initValue>
+      <name>houseNameShared_Member</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Biệt danh của tài khoản được chia sẻ với quyền thành viên</description>
+      <initValue>'Bông'</initValue>
+      <name>Bietdanh_Member</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'auto_trang_chu'</initValue>
+      <name>housename_trangchu</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'auto_thiet_bi'</initValue>
+      <name>housename_thietbi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'auto_ca_nhan'</initValue>
+      <name>housename_canhan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Biến môi trường Stagging</description>
+      <initValue>'com.viettel.VTHome.dev'</initValue>
+      <name>Environment_stg</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>tài khoản được tặng gói cloud</description>
+      <initValue>'0866617796'</initValue>
+      <name>user_received_cloud</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>user_received_cloud_mk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3be642171135c7e8'</initValue>
+      <name>serialcamera_AI</name>
+   </GlobalVariableEntity>
+>>>>>>> branch 'master' of https://github.com/VHTAutomation/SMH-Project
+</GlobalVariableEntities>

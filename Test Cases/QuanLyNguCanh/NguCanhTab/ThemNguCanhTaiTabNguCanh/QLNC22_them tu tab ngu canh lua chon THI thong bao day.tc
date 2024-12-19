@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLNC22_them tu tab ngu canh lua chon THI thong bao day</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db2d3ef9-5cf7-4b69-8a18-3d5ae0d92037</testCaseGuid>
+</TestCaseEntity>

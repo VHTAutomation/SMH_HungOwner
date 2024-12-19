@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLNC42_kiem_tra_lich_su_ngu_canh</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a50b7ee3-e37e-4818-a21e-c2fc2d3f2988</testCaseGuid>
+</TestCaseEntity>

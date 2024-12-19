@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLN10_Doi ten nha khong thanh cong do bo trong ten nha</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9a1f6dd-5589-4ea6-810f-60844fc7539e</testCaseGuid>
+</TestCaseEntity>

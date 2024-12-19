@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLGM13_cap_nhat_guong_mat_tu_tab_ca_nhan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df8d2965-2d15-4e25-b396-cc600be47645</testCaseGuid>
+</TestCaseEntity>

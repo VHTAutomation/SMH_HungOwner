@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSN5_Chia se nha khong thanh cong do sdt khong co trong DB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9434a232-42dc-498c-b3c2-083d71ec798b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLTK21_doi mat khau khi bo trong truong xac nhan mat khau moi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>672e2651-3049-42aa-8eb8-03493436026d</testCaseGuid>
+</TestCaseEntity>

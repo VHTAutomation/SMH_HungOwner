@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLN11_Doi ten nha khong thanh cong do ten nha nhap toan space</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>46591a6c-818f-4e67-bde6-8fb906c98c06</testCaseGuid>
+</TestCaseEntity>

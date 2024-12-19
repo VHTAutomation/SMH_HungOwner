@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLTK4_dang nhap bang so dien thoai khong ton tai trong DB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe6b0028-5355-4436-9743-e2a14a9bf17d</testCaseGuid>
+</TestCaseEntity>

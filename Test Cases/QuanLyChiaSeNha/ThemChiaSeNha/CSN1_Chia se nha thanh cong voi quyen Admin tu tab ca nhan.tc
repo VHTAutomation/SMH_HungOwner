@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSN1_Chia se nha thanh cong voi quyen Admin tu tab ca nhan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff5f0a19-b744-42db-90e7-6e5a179ba7ff</testCaseGuid>
+</TestCaseEntity>

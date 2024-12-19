@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TYT4_them nhom thiet bi khi trang chu chua co thiet bi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db34c69c-e38c-4633-8923-bb2d0666ac05</testCaseGuid>
+</TestCaseEntity>

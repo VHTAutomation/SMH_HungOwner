@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TGC5_Tang goi Cloud khong thanh cong do SDT trung TK dang nhap</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5e3d05ee-01e9-4388-8b49-24c0c363d18c</testCaseGuid>
+</TestCaseEntity>

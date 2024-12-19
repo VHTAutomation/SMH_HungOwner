@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Đăng nhập thành công</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f692e3ce-cd92-4bd1-a089-39e56d288f81</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>374e42eb-a10d-4962-9e2a-6f721c6ac734</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ced08f1-00c8-43c5-babf-eeddab1330ad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0969073634'</defaultValue>
+      <description></description>
+      <id>374e42eb-a10d-4962-9e2a-6f721c6ac734</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Matkhau@1'</defaultValue>
+      <description></description>
+      <id>3ced08f1-00c8-43c5-babf-eeddab1330ad</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

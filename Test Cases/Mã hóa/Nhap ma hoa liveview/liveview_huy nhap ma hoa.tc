@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>liveview_huy nhap ma hoa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5d42c97-95b4-4fbe-92e1-687e33b2f077</testCaseGuid>
+</TestCaseEntity>

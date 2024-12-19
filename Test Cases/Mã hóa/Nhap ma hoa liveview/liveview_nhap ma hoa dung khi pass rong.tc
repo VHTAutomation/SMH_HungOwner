@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>liveview_nhap ma hoa dung khi pass rong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e16e7e01-82d4-4735-8f39-3f3de8bdc4c9</testCaseGuid>
+</TestCaseEntity>

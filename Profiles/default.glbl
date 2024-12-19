@@ -5,6 +5,7 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    <GlobalVariableEntity>
       <description>Biến môi trườn Product</description>
@@ -102,4 +103,6 @@
       <name>serialcamera_AI</name>
    </GlobalVariableEntity>
 >>>>>>> branch 'master' of https://github.com/VHTAutomation/SMH-Project
+=======
+>>>>>>> branch 'master' of https://github.com/VHTAutomation/SMH
 </GlobalVariableEntities>

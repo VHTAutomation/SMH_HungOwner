@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Loc event theo camera khi khong co ket qua</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5f5ae76-8d6d-448f-ae0c-a220073c6011</testCaseGuid>
+</TestCaseEntity>

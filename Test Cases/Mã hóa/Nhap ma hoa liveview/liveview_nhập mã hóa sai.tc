@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>liveview_nhập mã hóa sai</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>850fa38a-86a7-4682-b5f1-d200b2740a62</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Khong gia han tu dong bang VTPay Gate</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f33b262-6824-4162-a5ab-6f9486600eff</testCaseGuid>
+</TestCaseEntity>

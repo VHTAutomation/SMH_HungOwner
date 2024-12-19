@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Hủy đăng xuất</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef74bfd5-ba61-42f9-9c1e-1655f3ee6199</testCaseGuid>
+</TestCaseEntity>

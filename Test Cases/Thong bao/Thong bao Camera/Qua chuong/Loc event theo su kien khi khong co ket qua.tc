@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Loc event theo su kien khi khong co ket qua</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83e8b774-a118-4bdb-8b5a-a0be3aad48a5</testCaseGuid>
+</TestCaseEntity>

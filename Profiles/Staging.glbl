@@ -6,11 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
       <initValue>'com.viettel.VTHome.dev'</initValue>
-=======
-      <initValue>'com.viettel.VHTHome.dev'</initValue>
->>>>>>> branch 'feature_quynhht13' of https://github.com/VHTAutomation/SMH
       <name>appID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

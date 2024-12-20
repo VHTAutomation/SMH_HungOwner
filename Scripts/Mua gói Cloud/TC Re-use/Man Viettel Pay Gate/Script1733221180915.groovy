@@ -31,9 +31,11 @@ Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_btn_dang_n
 
 Mobile.setText(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_nhap_otp_lan1'), '1111', 0)
 
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_nhap_otp_lan1_btn_Xac_nhan'), 10)
+Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_nhap_otp_lan1_btn_Xac_nhan'), 15)
 
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_btn_Thanh_toan'), 10)
+Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/Dang ky luu tru cloud/ViettelPay Logo'), 0)
+
+Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_btn_Thanh_toan'), 20)
 
 Mobile.setText(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_nhap_otp_lan2'), '1234', 10)
 

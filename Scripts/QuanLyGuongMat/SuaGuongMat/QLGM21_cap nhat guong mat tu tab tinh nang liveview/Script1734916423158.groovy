@@ -19,29 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_title_viettelpay_gate'), 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/title_thiet_bi'), 0)
 
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_chon_viettel_money'), 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManThietBi/opt_thiet_bi'), 0)
 
-Mobile.sendKeys(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_textbox_SDT'), '0366602050')
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManThietBi/ObjectManChiTietThietBi/title_tinh_nang'), 0)
 
-Mobile.sendKeys(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_textbox_Mat_khau'), '123123')
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManThietBi/ObjectManChiTietThietBi/title_nhan_dien_guong_mat'), 0)
 
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_btn_dang_nhap'), 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManThietBi/ObjectManChiTietThietBi/btn_quan_ly_guong_mat'), 0)
 
-Mobile.setText(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_nhap_otp_lan1'), '1111', 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManQuanLyGuongMat/opt_guong_mat'), 
+    0)
 
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_nhap_otp_lan1_btn_Xac_nhan'), 15)
+Mobile.clearText(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManQuanLyGuongMat/txtfield_ten_guong_mat'), 
+    0)
 
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/Dang ky luu tru cloud/ViettelPay Logo'), 0)
+Mobile.setText(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManQuanLyGuongMat/txtfield_ten_guong_mat'), 
+    'Sua Guong Mat 3', 0)
 
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_btn_Thanh_toan'), 20)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManQuanLyGuongMat/btn_luu_thay_doi_thong_tin_guong_mat'), 
+    0)
 
-Mobile.setText(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_nhap_otp_lan2'), '1234', 10)
+Mobile.verifyElementText(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManQuanLyGuongMat/txt_ten_guong_mat'), 
+    'Sua Guong Mat 3')
 
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_nhap_otp_lan2_btn_Xac_nhan (1)'), 10)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Settings Cam/Luu tru Cloud/viettelpay_gate_btn_Thanh_toan'), 0)
+Mobile.closeApplication()
 

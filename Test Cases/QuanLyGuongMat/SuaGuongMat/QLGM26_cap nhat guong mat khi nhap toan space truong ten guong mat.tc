@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>QLGM26_cap nhat guong mat khi nhap toan space truong ten guong mat</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23ef8b5b-00d1-44b3-b75e-026c69f4e9f9</testCaseGuid>
+</TestCaseEntity>

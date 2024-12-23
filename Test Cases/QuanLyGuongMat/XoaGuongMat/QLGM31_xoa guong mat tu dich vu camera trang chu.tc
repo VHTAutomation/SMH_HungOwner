@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>QLGM13_cap nhat guong mat tu tab ca nhan</name>
+   <name>QLGM31_xoa guong mat tu dich vu camera trang chu</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>6d7325f4-5a0f-45aa-8096-7b7196998c43</testCaseGuid>
+   <testCaseGuid>9e84c7c1-b0cf-4280-ba65-75bc4075d773</testCaseGuid>
 </TestCaseEntity>

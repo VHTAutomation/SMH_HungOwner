@@ -22,12 +22,12 @@ Mobile.startExistingApplication(GlobalVariable.Environment_stg, FailureHandling.
 
 Mobile.tap(findTestObject('ObjectThemGuongMat/banner_dung_thu_mien_phi'), 0)
 Mobile.tap(findTestObject('ObjectThemGuongMat/btn_Trai_nghiem_mien_phi'), 0)
-String cameraName = '3be642171135c7e8'
+//String cameraName = '3be642171135c7e8'
 
 // XPath động để tìm Switch Button
 TestObject switchButton = new TestObject('dynamicSwitchButton')
 
-switchButton.addProperty('xpath', ConditionType.EQUALS, ('//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[.//android.widget.TextView[@text=\'' +cameraName) + '\']]//android.widget.Switch')
+switchButton.addProperty('xpath', ConditionType.EQUALS, "//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[.//android.widget.TextView[@text='${GlobalVariable.serialcamera_AI}']]//android.widget.Switch")
 
 // Chạm vào Switch Button
 Mobile.tap(switchButton, 10)

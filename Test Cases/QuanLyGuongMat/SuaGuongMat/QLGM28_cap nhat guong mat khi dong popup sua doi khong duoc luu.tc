@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>QLGM13_cap nhat guong mat tu tab ca nhan</name>
+   <name>QLGM28_cap nhat guong mat khi dong popup sua doi khong duoc luu</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>6d7325f4-5a0f-45aa-8096-7b7196998c43</testCaseGuid>
+   <testCaseGuid>12d3e2c0-6c80-4c0b-8ff9-a22b9c962a8c</testCaseGuid>
 </TestCaseEntity>

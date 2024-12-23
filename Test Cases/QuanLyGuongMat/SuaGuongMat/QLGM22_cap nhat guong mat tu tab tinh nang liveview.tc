@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>QLGM13_cap nhat guong mat tu tab ca nhan</name>
+   <name>QLGM22_cap nhat guong mat tu tab tinh nang liveview</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>6d7325f4-5a0f-45aa-8096-7b7196998c43</testCaseGuid>
+   <testCaseGuid>f271deb6-bb64-4478-ac55-6a6630e5a27b</testCaseGuid>
 </TestCaseEntity>

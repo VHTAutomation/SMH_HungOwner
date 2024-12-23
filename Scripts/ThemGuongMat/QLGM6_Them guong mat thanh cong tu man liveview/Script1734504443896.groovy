@@ -24,22 +24,27 @@ Mobile.tap(findTestObject('ObjectThemGuongMat/txt_hien_thi_nha_dau_tien_tren_tra
 
 TestObject houseItem = new TestObject('houseItem')
 
-houseItem.addProperty('xpath', ConditionType.EQUALS, '//android.widget.TextView[contains(@text,\'Nhà Giang\')]')
+houseItem.addProperty('xpath', ConditionType.EQUALS, '//android.widget.TextView[contains(@text,\'Nhà của tôi\')]')
 
 Mobile.tap(houseItem, 0)
 
 Mobile.tap(findTestObject('ObjectThemGuongMat/Tab_Thiet_Bi'), 0)
 
-String cameraName = '3be642171135c7e8'
-TestObject listCamera = new TestObject('listCamera')
+//String cameraName = '3be642171135c7e8'
 
 //listCamera.addProperty('xpath', ConditionType.CONTAINS, "//android.widget.TextView[contains(@text,' "+ GlobalVariable.serialcamera_AI +" ')]")
 //listCamera.addProperty('xpath', ConditionType.CONTAINS, "//android.widget.TextView[contains(@text,'${GlobalVariable.serialcamera_AI}')]")
-listCamera.addProperty('xpath', ConditionType.EQUALS, ('//android.widget.TextView[contains(@text,\'' + cameraName) + '\')]')
+//listCamera.addProperty('xpath', ConditionType.EQUALS, ('//android.widget.TextView[contains(@text,\'' + cameraName) + '\')]')
+
+TestObject listCamera = new TestObject('listCamera')
+listCamera.addProperty('xpath', ConditionType.CONTAINS, "//android.widget.TextView[contains(@text,'${GlobalVariable.serialcamera_AI}')]")
 Mobile.tap(listCamera, 0)
 
-Mobile.tap(findTestObject('ObjectThemGuongMat/txt_nhan_dien_guong_mat_tren_man_liveview'), 0)
+TestObject serviceAI = new TestObject('serviceAI')
 
+serviceAI.addProperty('xpath', ConditionType.CONTAINS, '//android.widget.TextView[contains(@text,\'Nhận diện gương mặt\')]')
+
+Mobile.tap(serviceAI, 0)
 Mobile.tap(findTestObject('ObjectThemGuongMat/menu_QLGM_tren_man_nhan_dien_GM'), 0)
 Mobile.tap(findTestObject('ObjectThemGuongMat/icon_them_guong_mat_tren_man_QLGM'), 0)
 

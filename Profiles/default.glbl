@@ -3,10 +3,7 @@
    <description></description>
    <name>default</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Biến môi trườn Product</description>
       <initValue>'com.viettel.vhome2&amp;hl=vi'</initValue>
@@ -99,10 +96,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'3be642171135c7e8'</initValue>
+      <initValue>'755464c536defb73'</initValue>
       <name>serialcamera_AI</name>
    </GlobalVariableEntity>
->>>>>>> branch 'master' of https://github.com/VHTAutomation/SMH-Project
-=======
->>>>>>> branch 'master' of https://github.com/VHTAutomation/SMH
 </GlobalVariableEntities>

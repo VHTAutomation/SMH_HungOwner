@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-Mobile.startExistingApplication('com.viettel.vhome2&hl=vi', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 tapDynamicObject('//android.widget.TextView[1]', 0)
 
 Mobile.tap(findTestObject('ObjectXoaNha/popup_chon _nha_Quan_Ly_Nha'), 0)
 
-String house_delete ="${GlobalVariable.housename_trangchu}_Update"
+String house_delete = "$GlobalVariable.housename_trangchu_Update"
 
 TestObject houseItem = new TestObject('houseItem')
 

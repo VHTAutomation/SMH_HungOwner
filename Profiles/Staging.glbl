@@ -29,4 +29,19 @@
       <initValue>'Test@1234'</initValue>
       <name>new_pass_ma_hoa</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0866617796'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456aB@'</initValue>
+      <name>password_register</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

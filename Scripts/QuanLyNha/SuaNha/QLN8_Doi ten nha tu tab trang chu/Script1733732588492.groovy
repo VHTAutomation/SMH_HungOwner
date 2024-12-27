@@ -33,7 +33,7 @@ Mobile.tap(houseItem, 0)
 //Mobile.tap(findTestObject('null'), 0)
 Mobile.tap(findTestObject('ObjectSuaNha/Menu_doi_ten_nha_tren_man_quan_ly_nha'), 0)
 
-String updatedhousename_trangchu = "$GlobalVariable.housename_trangchu_Update"
+String updatedhousename_trangchu = "$GlobalVariable.housename_trangchu"+"_Update"
 
 Mobile.setText(findTestObject('ObjectSuaNha/txtbox_nhap_ten_nha'), updatedhousename_trangchu, 0)
 
@@ -50,7 +50,7 @@ Mobile.tap(findTestObject('ObjectSuaNha/btn_OK_tren_popup_edit_nha_thanh_cong'),
 
 Mobile.tap(findTestObject('ObjectSuaNha/icon_back'), 0)
 
-Mobile.tap(findTestObject('ObjectSuaNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectSuaNha/icon_back_man_quan_ly_nha'), 0)
 
 TestObject houseItem_update = new TestObject('houseItem_update')
 

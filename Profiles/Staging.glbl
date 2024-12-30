@@ -44,4 +44,29 @@
       <initValue>'123456aB@'</initValue>
       <name>password_register</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nhà được chia sẻ với quyền Admin</description>
+      <initValue>'My Home'</initValue>
+      <name>houseNameShared_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nhà chia sẻ với quyền thành viên</description>
+      <initValue>'Nha Chia Se'</initValue>
+      <name>houseNameShared_Member</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tài khoản được chia sẻ nhà</description>
+      <initValue>'0356573351'</initValue>
+      <name>user_shared</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mật khẩu của tài khoản được chia sẻ</description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>user_shared_MK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Biệt danh của tài khoản được chia sẻ với quyền thành viên</description>
+      <initValue>'Bong'</initValue>
+      <name>Bietdanh_Member</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

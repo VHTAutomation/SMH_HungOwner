@@ -17,12 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
 Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('ObjectDangNhap/txtbox_nhap_SDT'), GlobalVariable.user_shared, 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/title_ca_nhan'), 0)
 
-Mobile.setText(findTestObject('ObjectDangNhap/txtbox _nhap_mat_khau'), GlobalVariable.user_shared_MK, 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/title_dang_xuat'), 0)
 
-Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap (1)'), 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/btn_dong_y_popup_dang_xuat'), 0)
 

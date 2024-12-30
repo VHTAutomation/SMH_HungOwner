@@ -24,7 +24,7 @@ import org.openqa.selenium.NoSuchElementException as NoSuchElementException
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
-Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Ca_Nhan'), 0)
 
@@ -70,11 +70,11 @@ catch (NoSuchElementException e) {
 Mobile.verifyElementNotExist(peopleObject, 10 // timeout 10s
     )
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_trong_view_chi_tiet_nha_chia_se'), 0)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_man_danh_sach_nha'), 0)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_man_quan_ly_chung'), 0)
 
 'Đăng xuất khỏi tk chia sẻ'
 WebUI.callTestCase(findTestCase('DangXuat/Dang xuat thanh cong'), [:], FailureHandling.STOP_ON_FAILURE)

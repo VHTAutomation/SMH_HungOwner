@@ -47,10 +47,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2532c662-9b36-40ee-8556-358387d7a209</guid>
+      <guid>d03fcce1-934c-4a43-a0cc-b225c75918de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/QuanLyChiaSeNha/ThemChiaSeNha/CSN1_Chia se nha thanh cong voi quyen Admin tu tab ca nhan</testCaseId>
+      <testCaseId>Test Cases/QuanLyChiaSeNha/ThemChiaSeNha/CSN2_Chia se nha thanh cong voi quyen thanh vien tu man trang chu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4d5fc21b-23b9-48dd-ac1c-f8189248381d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyTaiKhoan/dang xuat thanh cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c8d8db89-e25c-453b-ab0e-0ec839c451c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DangNhap/Dang nhap thanh cong Tk duoc chia se</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -75,38 +89,45 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>201db820-380b-48a3-a742-ea8cf516f8ca</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/QuanLyChiaSeNha/ThemChiaSeNha/CSN2_Chia se nha thanh cong voi quyen thanh vien tu man trang chu</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1d304ab4-01bd-43ac-9668-2bf0330309e6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/QuanLyChiaSeNha/TuChoiChiaSeNha/CSN13_Tu choi chia se nha tu tab trang chu</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fdbc2d49-a46b-4298-83b0-517c99aa7472</guid>
+      <guid>62f38065-843b-45bd-a599-51c2d67e2c7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/QuanLyChiaSeNha/ThemChiaSeNha/CSN1_Chia se nha thanh cong voi quyen Admin tu tab ca nhan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a09437c7-d1db-44aa-841f-7b76a7ff394d</guid>
+      <guid>8c16bd4b-3443-44e6-9693-dc254e480bbf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/QuanLyChiaSeNha/ChapNhanChiaSeNha/CSN11_Chap nhan chia se nha tu tab ca nhan</testCaseId>
+      <testCaseId>Test Cases/QuanLyTaiKhoan/dang xuat thanh cong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d5b5afa7-f8ed-4986-b835-16765e90a0f1</guid>
+      <guid>6c1b946b-c8c9-4a6d-8bcf-027cb3580f78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/QuanLyChiaSeNha/XoaThanhVienTrongNhaChiaSe/CSN19_Xoa thanh vien khi tai khoan da chap nhan chia se nha</testCaseId>
+      <testCaseId>Test Cases/DangNhap/Dang nhap thanh cong Tk duoc chia se</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19cb2223-a594-4603-81db-dd531e9160b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyChiaSeNha/TuChoiChiaSeNha/CSN13_Tu choi chia se nha tu tab trang chu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>005e9aed-5dfc-4097-a19a-61e35e83bec1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyChiaSeNha/ThemChiaSeNha/CSN2_Chia se nha thanh cong voi quyen thanh vien tu man trang chu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a65220dc-be7c-4ed9-95a6-8d63b9275ea8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyChiaSeNha/XoaThanhVienTrongNhaChiaSe/CSN20_Xoa thanh vien khi tài khoan chua chap nhan chia se nha</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

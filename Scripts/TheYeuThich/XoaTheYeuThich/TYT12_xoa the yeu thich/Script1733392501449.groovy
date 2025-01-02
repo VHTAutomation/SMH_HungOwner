@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TheYeuThich/ThemTheKhiTrangChuDaCoThietBi/TYT10_them the thiet bi'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.startExistingApplication('com.viettel.vhome2', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManTrangChu/ObjectTheYeuThich/btnOption'), 0)
 

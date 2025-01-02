@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Đăng nhập/Đăng nhập thành công'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Đăng nhập/Đăng nhập thành công'), [('username') : '0969073634', ('password') : 'Matkhau@1'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
@@ -27,7 +28,7 @@ Mobile.tap(findTestObject('Object Repository/Share device/tb_doi_chap_nhan_chonc
 
 Mobile.tap(findTestObject('Share device/btn Tu_choi_chia_se'), 0)
 
-Mobile.tap(findTestObject('Share device/Huy chia se/Huy_nhan_chia_se_btn Xac Nhan'), 0)
+Mobile.tap(findTestObject('Share device/Huy chia se/btn_xac_nhan_popup_tu_choi_chia_se'), 0)
 
 Mobile.verifyElementExist(findTestObject('Share device/title_ban da tu choi tb X duoc chia se tu tk A'), 0)
 

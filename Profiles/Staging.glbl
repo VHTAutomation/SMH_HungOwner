@@ -69,4 +69,14 @@
       <initValue>'Bong'</initValue>
       <name>Bietdanh_Member</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tài khoản test thẻ yêu thích</description>
+      <initValue>'0394361750'</initValue>
+      <name>user_the_yeu_thich</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mật khẩu tài khoản test thẻ yêu thích</description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>password_the_yeu_thich</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

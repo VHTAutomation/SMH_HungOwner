@@ -312,4 +312,25 @@
       <testCaseId>Test Cases/TheYeuThich/XoaTheYeuThich/TYT12_xoa the yeu thich</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4eacf2fe-346e-4bc7-8232-e51920b727fc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Đổi tên Camera/Đổi tên camera thành công</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8d0e32b6-29c9-4b8b-b97a-8dccc17a07f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mã hóa/Nhap ma hoa liveview/liveview_nhập mã hóa đúng</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0bcb207b-32aa-447e-9aa7-89ed157f2314</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mã hóa/Doi mat khau ma hoa/doi mat khau thanh cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

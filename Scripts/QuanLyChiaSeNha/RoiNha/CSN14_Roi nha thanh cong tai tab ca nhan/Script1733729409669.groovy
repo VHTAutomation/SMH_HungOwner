@@ -24,7 +24,7 @@ import org.openqa.selenium.NoSuchElementException as NoSuchElementException
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
-Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Ca_Nhan'), 0)
 
@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('ObjectChiaSeNha/Menu_Quan_Ly_Nha'), 0)
 
 TestObject houseObject = new TestObject('houseObject')
 
-houseObject.addProperty('xpath', ConditionType.EQUALS, "//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup//android.widget.TextView[contains(@text,'$GlobalVariable.houseNameShared_Admin')]")
+houseObject.addProperty('xpath', ConditionType.EQUALS, "//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup//android.widget.TextView[contains(@text,'$GlobalVariable.houseNameShared_Member')]")
 
 'Nhấn vào nhà My Home'
 Mobile.tap(houseObject, 0 // tap vào Nhà được chia sẻ:" Nhà Chia Sẻ"
@@ -44,7 +44,8 @@ Mobile.tap(houseObject, 0 // tap vào Nhà được chia sẻ:" Nhà Chia Sẻ"
 Mobile.tap(findTestObject('ObjectChiaSeNha/btn_roi_nha'), 0)
 
 'Kiểm tra popup xác nhận rời nhà'
-Mobile.verifyElementVisible(findTestObject('ObjectChiaSeNha/popup_thong_bao_roi-nha_txtfield_ban_co_chac_muon_roi_nha'), 0)
+Mobile.verifyElementVisible(findTestObject('ObjectChiaSeNha/popup_thong_bao_roi-nha_txtfield_ban_co_chac_muon_roi_nha'), 
+    0)
 
 Mobile.verifyElementVisible(findTestObject('ObjectChiaSeNha/popup_thong_bao_roi_nha_btn_huy_bo'), 0)
 
@@ -76,9 +77,9 @@ catch (NoSuchElementException e) {
 'Check tồn tại nhà trên màn quản lý nhà sau khi rời nhà --> Không tồn tại'
 Mobile.verifyElementNotExist(houseObject, 10)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_man_danh_sach_nha'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_man_quan_ly_chung'), 0)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Trang_Chu'), 0)
 

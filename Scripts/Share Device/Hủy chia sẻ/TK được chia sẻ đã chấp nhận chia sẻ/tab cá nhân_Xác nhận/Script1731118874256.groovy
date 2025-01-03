@@ -33,7 +33,7 @@ Mobile.tap(findTestObject('Share device/Huy chia se/chon_tb_da_chap_nhan- 466744
 
 Mobile.tap(findTestObject('Share device/Huy chia se/Button_Huy_nhan_chia_se'), 0)
 
-Mobile.tap(findTestObject('Share device/Huy chia se/Huy_nhan_chia_se_btn Xac Nhan'), 0)
+Mobile.tap(findTestObject('Share device/Huy chia se/btn_xac_nhan_popup_huy_chia_se'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Share device/Huy chia se/title_Ban da huy chia se tb 46674403b7b6e043 thanh cong'), 
     0)

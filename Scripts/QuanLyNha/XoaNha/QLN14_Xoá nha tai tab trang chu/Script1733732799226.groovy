@@ -18,13 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-Mobile.startExistingApplication('com.viettel.vhome2&hl=vi', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 tapDynamicObject('//android.widget.TextView[1]', 0)
 
 Mobile.tap(findTestObject('ObjectXoaNha/popup_chon _nha_Quan_Ly_Nha'), 0)
 
-String house_delete ="${GlobalVariable.housename_trangchu}_Update"
+String house_delete = "$GlobalVariable.housename_trangchu" + '_Update'
 
 TestObject houseItem = new TestObject('houseItem')
 
@@ -38,11 +38,11 @@ Mobile.verifyElementVisible(findTestObject('ObjectXoaNha/popup_confrim_xoa_image
 
 Mobile.verifyElementVisible(findTestObject('ObjectXoaNha/popup_confrim_xoa_noi dung'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ObjectXoaNha/popup_confrim_xoa_btn_Huy_bo'), 0)
+Mobile.verifyElementVisible(findTestObject('ObjectXoaNha/popup_confirm_xoa_btn_huy_bo'), 0)
 
-Mobile.verifyElementVisible(findTestObject('ObjectXoaNha/popup_confrim_xoa_btn_Xoa'), 0)
+Mobile.verifyElementVisible(findTestObject('ObjectXoaNha/popup_confirm_xoa_btn_xoa'), 0)
 
-Mobile.tap(findTestObject('ObjectXoaNha/popup_confrim_xoa_btn_Xoa'), 0)
+Mobile.tap(findTestObject('ObjectXoaNha/popup_confirm_xoa_btn_xoa'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 

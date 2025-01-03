@@ -25,7 +25,7 @@ Mobile.tap(findTestObject('Login/btn Dang_xuat'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Login/popup_ban_co_muon_dang_xuat'), 0)
 
-Mobile.tap(findTestObject('Login/btn Xac Nhan Dang Xuat'), 0)
+Mobile.tap(findTestObject('Login/btn_dong_y_dang_xuat'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Login/image_viettel Home'), 0)
 

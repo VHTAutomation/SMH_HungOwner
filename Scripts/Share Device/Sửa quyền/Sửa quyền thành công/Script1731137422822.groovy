@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Share device/title_thiet_bi_da_chia_se'), 0)
 
 Mobile.tap(findTestObject('Share device/Huy chia se/chon_tb_da_chap_nhan- 46674403b7b6e043'), 0)
 
-Mobile.tap(findTestObject('Share device/Thong_tin_chia_se_btn_Next'), 0)
+Mobile.tap(findTestObject('Share device/icon_next_thong_tin_chia_se'), 0)
 
 Mobile.tap(findTestObject('Share device/checkbox_dam_thoai'), 0)
 
@@ -41,14 +41,6 @@ Mobile.tap(findTestObject('Share device/btnBack'), 0)
 
 Mobile.verifyElementExist(findTestObject('Share device/chi_tiet_chia_se_icon_dam_thoai'), 0)
 
-Mobile.tap(findTestObject('Share device/btnBack'), 0)
-
-Mobile.tap(findTestObject('Share device/btnBack'), 0)
-
-Mobile.tap(findTestObject('Share device/btnBack'), 0)
-
-Mobile.tap(findTestObject('Share device/btnBack'), 0)
-
 Mobile.closeApplication()
 
 WebUI.callTestCase(findTestCase('Đăng xuất/Đăng xuất thành công'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -58,7 +50,7 @@ WebUI.callTestCase(findTestCase('Đăng nhập/Đăng nhập thành công'), [('
 
 Mobile.tap(findTestObject('Tab Thiết bị/Tab_Thietbi'), 0)
 
-Mobile.tap(findTestObject('Tab Thiết bị/chon_cam - 46674403b7b6e043'), 0)
+Mobile.tap(findTestObject('Tab Thiết bị/opt_cam_duoc_chia_se'), 0)
 
 String damthoai_display = Mobile.getAttribute(findTestObject('Object Repository/Settings Cam/liveview_btn_dam_thoai'), 'enabled', 
     10)

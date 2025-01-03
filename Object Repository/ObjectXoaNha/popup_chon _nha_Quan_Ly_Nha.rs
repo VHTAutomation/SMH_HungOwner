@@ -3,7 +3,7 @@
    <description></description>
    <name>popup_chon _nha_Quan_Ly_Nha</name>
    <tag></tag>
-   <elementGuidId>72aee9c7-a8a5-4beb-a331-fd85ec1c11a8</elementGuidId>
+   <elementGuidId>b602d2b3-8f59-4ed6-9b38-554f00f5b272</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>10d4c18e-a94b-4ec0-bd37-77922ab5c4bd</webElementGuid>
+      <webElementGuid>e7102973-27f4-4c1d-a812-04d5ed3132dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>97a78836-0df5-4f3c-a2c5-b0caa233cc06</webElementGuid>
+      <webElementGuid>0dd713da-493b-4e63-aa37-91bd09b9de71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Quản lý nhà</value>
-      <webElementGuid>7bd38595-2568-482e-b571-d5c0aede5776</webElementGuid>
+      <webElementGuid>cc6f9780-713b-40c0-87e2-c5eac0f76b57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.viettel.vhome2:id/tvManageHome</value>
-      <webElementGuid>c9e01f06-c3dc-4d82-aa5f-a4b70c6223c6</webElementGuid>
+      <webElementGuid>4cfa1888-5abc-46cf-937d-d6bcbe3de99b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.viettel.vhome2</value>
-      <webElementGuid>fe71a603-22ae-4e25-bc90-a3e6a7c5efdc</webElementGuid>
+      <webElementGuid>727dec6c-3988-4190-97e2-531591379334</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d54bff7f-3a1a-4967-8d44-d42cc3f67c48</webElementGuid>
+      <webElementGuid>d7567012-366c-4a16-943d-f8a461ddaaa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>303907fa-96bc-443d-9079-47194a0360f6</webElementGuid>
+      <webElementGuid>6b869060-5609-4868-aa02-bc00269d916e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4ecaf2e2-83be-4be9-881c-46484519148d</webElementGuid>
+      <webElementGuid>93d97724-20c5-4aeb-8c75-ddc35f326ab6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bc06da4a-c700-492e-abfc-46a2f8aabae0</webElementGuid>
+      <webElementGuid>7cccb519-cd36-4882-8274-9ff7e7460991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>92f2f36e-0386-41be-9587-aa0dcf0c1cdb</webElementGuid>
+      <webElementGuid>1f0dd293-0d38-4f42-bb5a-4007f46b5083</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e6ab40e3-006b-4e83-ab55-b5cc855224cd</webElementGuid>
+      <webElementGuid>47f9b77a-67d3-4094-bd66-c12649e8e10e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ab3aaf73-fb79-4c93-a117-1d7d0e79ca14</webElementGuid>
+      <webElementGuid>c1d24ed1-fe75-4385-a627-6f7c138502b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1d3b8fcc-bcbc-461e-aea4-47f7b6c835c9</webElementGuid>
+      <webElementGuid>b52f3d21-e944-433f-88eb-2fc074d933d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d8977711-0164-47c3-a715-2b606c5f29e2</webElementGuid>
+      <webElementGuid>1b6422cf-4488-4ff4-866c-1384023fc515</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5f1d4eb4-9ab7-4166-8e44-084d541ba7ee</webElementGuid>
+      <webElementGuid>414a6f6d-3bd4-415f-a110-7341204fa563</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>x</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>eb72d3ba-d186-4cac-af94-a6118ac8effd</webElementGuid>
+      <webElementGuid>16f1589c-102a-41a0-a211-aa2aabe52ec2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>y</name>
       <type>Main</type>
       <value>2143</value>
-      <webElementGuid>9892037b-8290-411e-a4dc-0015cb7c7034</webElementGuid>
+      <webElementGuid>cc8c5d20-b3d7-4651-a6a5-493878d10dbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1080</value>
-      <webElementGuid>923be0bc-b281-4e5b-ad2e-fbf509b5a49d</webElementGuid>
+      <webElementGuid>b1c77f70-50dd-4c45-8195-83ccaa5ee120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>height</name>
       <type>Main</type>
       <value>131</value>
-      <webElementGuid>f572c02f-0c28-47a2-9a6b-0e638066e3fd</webElementGuid>
+      <webElementGuid>23c1d81f-5277-4f5b-81ba-3bf217397b24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[0,2143][1080,2274]</value>
-      <webElementGuid>0fc04c04-8210-4137-a7f9-7a9ed9f076c9</webElementGuid>
+      <webElementGuid>3b9bfa4f-bc5e-4a01-8a25-6746a904d05d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,7 +173,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f36b1576-b0d2-4e4e-8fe8-114c3388186f</webElementGuid>
+      <webElementGuid>9884dc44-7e24-4123-a4e5-95b118819f6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -181,52 +181,59 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.TextView[1]</value>
-      <webElementGuid>d3de5a5d-49a1-4d56-ab55-4fc18768d7a6</webElementGuid>
+      <webElementGuid>8ab324da-8b70-4cb1-b23f-28e907aa629e</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Quản lý nhà' or . = 'Quản lý nhà') and @resource-id = 'com.viettel.vhome2:id/tvManageHome']</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.TextView[1]</locator>
    <locatorCollection>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Quản lý nhà&quot;).resourceId(&quot;com.viettel.vhome2:id/tvManageHome&quot;).packageName(&quot;com.viettel.vhome2&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)</value>
-      </entry>
-      <entry>
          <key>NAME</key>
-      </entry>
-      <entry>
-         <key>ACCESSIBILITY</key>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.widget.TextView</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>com.viettel.vhome2:id/tvManageHome</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.TextView[1]</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
+         <key>CLASS_NAME</key>
+         <value>android.widget.TextView</value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
          <value>//*[@class = 'android.widget.TextView' and (@text = 'Quản lý nhà' or . = 'Quản lý nhà') and @resource-id = 'com.viettel.vhome2:id/tvManageHome']</value>
       </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;Quản lý nhà&quot;).resourceId(&quot;com.viettel.vhome2:id/tvManageHome&quot;).packageName(&quot;com.viettel.vhome2&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>com.viettel.vhome2:id/tvManageHome</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>enabled == 1</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**[`enabled == 1`]</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
    </locatorCollection>
-   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <locatorStrategy>XPATH</locatorStrategy>
    <platform>ANDROID</platform>
 </MobileElementEntity>

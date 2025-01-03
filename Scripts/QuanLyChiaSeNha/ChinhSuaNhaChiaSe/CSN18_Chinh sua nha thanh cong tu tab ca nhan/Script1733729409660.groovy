@@ -24,7 +24,7 @@ import org.openqa.selenium.NoSuchElementException as NoSuchElementException
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
-Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Ca_Nhan'), 0)
 
@@ -49,7 +49,7 @@ peopleObject_noupdate.addProperty('xpath', ConditionType.EQUALS, "//androidx.rec
 
 Mobile.tap(peopleObject_noupdate, 0)
 
-String updatedBietdanhMember ="${GlobalVariable.Bietdanh_Member}_Update"
+String updatedBietdanhMember = "$GlobalVariable.Bietdanh_Member" + 'Update'
 
 Mobile.setText(findTestObject('ObjectChiaSeNha/popup_cap _nhat _thanh _vien_txtbox_biet_danh'), updatedBietdanhMember, 0)
 
@@ -89,11 +89,11 @@ peopleObject_update.addProperty('xpath', ConditionType.EQUALS, "//androidx.recyc
 Mobile.verifyElementExist(peopleObject_update, 10 // timeout 10s
     )
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_trong_view_chi_tiet_nha_chia_se'), 0)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_man_danh_sach_nha'), 0)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_man_quan_ly_chung'), 0)
 
 'Đăng xuất khỏi tài khoản chia sẻ'
 WebUI.callTestCase(findTestCase('DangXuat/Dang xuat thanh cong'), [:], FailureHandling.STOP_ON_FAILURE)

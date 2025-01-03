@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManTrangChu/ObjectManKichHoatDichVuAI/btn_dung_thu_mien_phi'), 0)
+Mobile.tap(findTestObject('ObjedasfasdfsafsadctManHinhChinh/ObjectManTrangChu/ObjectManKichHoatDichVuAI/btn_dung_thu_mien_phi'), 0)
 
 Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManTrangChu/ObjectManKichHoatDichVuAI/btn_trai_nghiem_mien_phi'), 0)
 

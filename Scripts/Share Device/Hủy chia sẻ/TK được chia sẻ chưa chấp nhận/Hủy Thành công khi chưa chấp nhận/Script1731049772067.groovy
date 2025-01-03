@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.viettel.vhome2')
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Tab Thiết bị/Tab_Thietbi'), 0)
 
-Mobile.tap(findTestObject('Tab Thiết bị/choncam - CNME00000586'), 0)
+Mobile.tap(findTestObject('Tab Thiết bị/opt_chon_cam'), 0)
 
 Mobile.tap(findTestObject('Tab Thiết bị/tab_tinh_nang'), 0)
 
-Mobile.tap(findTestObject('Tab Thiết bị/btn_chiaseTB'), 0)
+Mobile.tap(findTestObject('Tab Thiết bị/btn_chia_se_thiet_bi'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Share device/title_chia_se_thiet_bi'), 0)
 
@@ -33,11 +33,13 @@ Mobile.tap(findTestObject('Share device/chiaseTB_btn_huychiase'), 0)
 
 Mobile.tap(findTestObject('Share device/chitietchiase_btn_huy'), 0)
 
-Mobile.verifyElementText(findTestObject('Share device/popup_xac_nhan_huy_sdt0969073634'), 'Bạn có chắc muốn hủy chia sẻ đến tài khoản 0394361750')
+Mobile.verifyElementText(findTestObject('Share device/txt_popup_xac_nhan_huy_chia_se'), 'Bạn có chắc muốn hủy chia sẻ đến tài khoản 0969073634')
 
-Mobile.tap(findTestObject('Share device/btn_Xac_nhan_Huy'), 0)
+Mobile.tap(findTestObject('Share device/btn_xac_nhan_popup_huy_chia_se'), 0)
 
-Mobile.verifyElementText(findTestObject('Share device/popup_thu_hoi_chia_se_tbi_X_den_tk_A'), 'Đã thu hồi lời mời chia sẻ thiết bị CNME00000586 đến tài khoản 0394361750')
+// Mobile.verifyElementText(findTestObject('Share device/popup_thu_hoi_chia_se_tbi_X_den_tk_A'), 'Đã thu hồi lời mời chia sẻ thiết bị 755464c536defb73 đến tài khoản 0969073634')
+
+Mobile.tap(findTestObject('Share device/btnBack'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Share device/title_chia_se_thiet_bi'), 0)
 

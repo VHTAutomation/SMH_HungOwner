@@ -18,9 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
-Mobile.setText(findTestObject('ObjectDangNhap/txtbox_nhap_SDT'), GlobalVariable.user_share, 0)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('ObjectDangNhap/txtbox _nhap_mat_khau'), GlobalVariable.user_share_MK, 0)
+Mobile.setText(findTestObject('ObjectDangNhap/txtbox_nhap_SDT'), GlobalVariable.username, 0)
 
-Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap'), 0)
+Mobile.setText(findTestObject('ObjectDangNhap/txtbox _nhap_mat_khau'), GlobalVariable.password, 0)
+
+Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap (1)'), 0)
 

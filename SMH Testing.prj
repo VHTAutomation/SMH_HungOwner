@@ -6,10 +6,10 @@
    <UUID>3ac27260-7c2b-4fa2-99ba-edfb47887ad7</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.0.0</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>10.0.0</modifiedVersion>
+   <modifiedVersion>9.7.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\Admin\Katalon Studio\SMH Testing\SMH Testing.prj</projectFileLocation>
    <sourceContent>

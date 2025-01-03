@@ -23,9 +23,9 @@ Mobile.tap(findTestObject('ObjectManHinhChinh/title_ca_nhan'), 0)
 
 Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/title_quan_ly_chung'), 0)
 
-Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/title_tai_khoan_va_bao_mat'), 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/icon_tai_khoan_va_bao_mat'), 0)
 
-Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManTaiKhoanVaBaoMat/title_doi_mat_khau'), 
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManTaiKhoanVaBaoMat/ObjectManDoiMatKhau/icon_doi_mat_khau'), 
     0)
 
 Mobile.setText(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManTaiKhoanVaBaoMat/ObjectManDoiMatKhau/txtfield_nhap_mat_khau_cu'), 
@@ -49,23 +49,23 @@ Mobile.setText(findTestObject('ObjectDangNhap/txtfield_so_dien_thoai'), GlobalVa
 
 Mobile.setText(findTestObject('ObjectDangNhap/txtfield_mat_khau'), GlobalVariable.password, 0)
 
-Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap'), 0)
+Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap (1)'), 0)
 
-Mobile.verifyElementText(findTestObject('ObjectDangNhap/txt_so_dien_thoai_hoac_mat_khau_khong_chinh_xac'), 'Số điện thoại hoặc mật khẩu không chính xác')
+Mobile.verifyElementText(findTestObject('ObjectDangNhap/txt_so_dien_thoai_hoac_mat_khau'), 'Số điện thoại hoặc mật khẩu không chính xác')
 
 Mobile.clearText(findTestObject('ObjectDangNhap/txtfield_mat_khau'), 0)
 
 Mobile.setText(findTestObject('ObjectDangNhap/txtfield_mat_khau'), GlobalVariable.password_register, 0)
 
-Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap'), 0)
+Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap (1)'), 0)
 
 Mobile.tap(findTestObject('ObjectManHinhChinh/title_ca_nhan'), 0)
 
 Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/title_quan_ly_chung'), 0)
 
-Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/title_tai_khoan_va_bao_mat'), 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/icon_tai_khoan_va_bao_mat'), 0)
 
-Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManTaiKhoanVaBaoMat/title_doi_mat_khau'), 
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManTaiKhoanVaBaoMat/ObjectManDoiMatKhau/icon_doi_mat_khau'), 
     0)
 
 Mobile.setText(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManTaiKhoanVaBaoMat/ObjectManDoiMatKhau/txtfield_nhap_mat_khau_cu'), 
@@ -89,7 +89,7 @@ Mobile.setText(findTestObject('ObjectDangNhap/txtfield_so_dien_thoai'), GlobalVa
 
 Mobile.setText(findTestObject('ObjectDangNhap/txtfield_mat_khau'), GlobalVariable.password, 0)
 
-Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap'), 0)
+Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap (1)'), 0)
 
 Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManTrangChu/ObjectTheYeuThich/btnOption'), 0)
 

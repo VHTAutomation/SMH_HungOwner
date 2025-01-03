@@ -29,4 +29,54 @@
       <initValue>'Test@1234'</initValue>
       <name>new_pass_ma_hoa</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0866617796'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456aB@'</initValue>
+      <name>password_register</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nhà được chia sẻ với quyền Admin</description>
+      <initValue>'My Home'</initValue>
+      <name>houseNameShared_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Nhà chia sẻ với quyền thành viên</description>
+      <initValue>'Nha Chia Se'</initValue>
+      <name>houseNameShared_Member</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tài khoản được chia sẻ nhà</description>
+      <initValue>'0356573351'</initValue>
+      <name>user_shared</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mật khẩu của tài khoản được chia sẻ</description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>user_shared_MK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Biệt danh của tài khoản được chia sẻ với quyền thành viên</description>
+      <initValue>'Bong'</initValue>
+      <name>Bietdanh_Member</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tài khoản test thẻ yêu thích</description>
+      <initValue>'0394361750'</initValue>
+      <name>user_the_yeu_thich</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mật khẩu tài khoản test thẻ yêu thích</description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>password_the_yeu_thich</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

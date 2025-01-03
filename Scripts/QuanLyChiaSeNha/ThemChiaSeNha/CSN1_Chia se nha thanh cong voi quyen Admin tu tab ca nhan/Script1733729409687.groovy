@@ -24,7 +24,7 @@ import org.openqa.selenium.NoSuchElementException as NoSuchElementException
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
-Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Ca_Nhan'), 0)
 
@@ -69,6 +69,7 @@ Mobile.setText(findTestObject('ObjectChiaSeNha/popup_chia_se_nha_txtbox_tai_khoa
     0)
 
 Mobile.setText(findTestObject('ObjectChiaSeNha/popup_chia_se_nha_txtbox_biet_danh'), GlobalVariable.Bietdanh_Admin, 0)
+
 'Chọn quyền Quản trị viên'
 Mobile.tap(findTestObject('ObjectChiaSeNha/popup_chia_se_nha_rdbtn_quan_tri_vien'), 0)
 
@@ -102,12 +103,12 @@ catch (NoSuchElementException e) {
 } */
 WebDriverWait wait = new WebDriverWait(driver, 15)
 
-	AndroidElement toastElement = driver.findElementByXPath('//android.widget.Toast[1]')
+AndroidElement toastElement = driver.findElementByXPath('//android.widget.Toast[1]')
+
 if (toastElement.getText().equals(expectedPartialMessage)) {
-	System.out.println("Toast message chứa nội dung mong đợi.");
+    System.out.println('Toast message chứa nội dung mong đợi.') // Có thể thêm logic xử lý lỗi hoặc tiếp tục chương trình
 } else {
-	System.out.println("Toast message không xuất hiện hoặc không tìm thấy XPath.");
-	// Có thể thêm logic xử lý lỗi hoặc tiếp tục chương trình
+    System.out.println('Toast message không xuất hiện hoặc không tìm thấy XPath.')
 }
 
 // Tạo đối tượng động với XPath thành viên trong danh sách
@@ -116,14 +117,7 @@ TestObject peopleObject = new TestObject()
 peopleObject.addProperty('xpath', ConditionType.EQUALS, "//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup[.//android.widget.TextView[@text='$GlobalVariable.Bietdanh_Admin'] and .//android.widget.TextView[@text='$GlobalVariable.user_shared'] and .//android.widget.TextView[@text='Chưa xác nhận']]")
 
 'Kiểm tra thành viên sau khi xác nhận chia sẻ nhà'
-Mobile.verifyElementExist(peopleObject, 10 // timeout 10s
-    )
-
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
-
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
-
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.verifyElementExist(peopleObject, 10) // timeout 10s
 
 Mobile.closeApplication()
 

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 tapDynamicObject('//android.widget.TextView[1]', 0)
 
@@ -45,21 +45,26 @@ Mobile.tap(findTestObject('ObjectThemNha/popup_them_nha_thanh_cong_btn_OK'), 0)
 TestObject houseItem = new TestObject('houseItem')
 
 houseItem.addProperty('xpath', ConditionType.EQUALS, "//android.widget.TextView[contains(@text, '$GlobalVariable.housename_trangchu')]")
+
 'Kiểm tra nhà vừa tạo trên màn Quản lý nhà'
-Mobile.verifyElementExist(houseItem, 10 )// timeout 10s
+Mobile.verifyElementExist(houseItem, 10 // timeout 10s
+    )
 
 Mobile.tap(findTestObject('ObjectThemNha/icon_back'), 0)
 
 tapDynamicObject('//android.widget.TextView[1]', 0)
 
 'Kiểm tra nhà vừa tạo trên popup chọn nhà trên trang chủ'
-Mobile.verifyElementExist(houseItem, 10 )
-Mobile.tap(houseItem, 0)
-Mobile.tap(findTestObject('ObjectThemNha/Tab_Thiet_Bi'), 0)
-'Kiểm tra nhà vừa tạo trên popup chọn nhà trên tab thiết bị'
-Mobile.verifyElementExist(houseItem, 10 )
-//Mobile.verifyElementExist(findTestObject('null'), 0)
+Mobile.verifyElementExist(houseItem, 10)
 
+Mobile.tap(houseItem, 0)
+
+Mobile.tap(findTestObject('ObjectThemNha/Tab_Thiet_Bi'), 0)
+
+'Kiểm tra nhà vừa tạo trên popup chọn nhà trên tab thiết bị'
+Mobile.verifyElementExist(houseItem, 10)
+
+//Mobile.verifyElementExist(findTestObject('null'), 0)
 // Tạo Test Object động
 //Tạo một Test Object với tên dynamicObject.Test Object này chỉ tồn tại trong bộ nhớ trong khi script chạy và không được lưu trong Object Repository.
 // Sử dụng Khi không muốn lưu trữ quá nhiều Test Object trong Object Repository

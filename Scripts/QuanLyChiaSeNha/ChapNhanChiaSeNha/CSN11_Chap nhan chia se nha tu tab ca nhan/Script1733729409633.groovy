@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 
-Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Ca_Nhan'), 0)
 
@@ -31,6 +31,7 @@ Mobile.tap(findTestObject('ObjectChiaSeNha/Menu_Quan_Ly_Nha'), 0)
 TestObject invitationObject = new TestObject()
 
 invitationObject.addProperty('xpath', ConditionType.EQUALS, "//androidx.recyclerview.widget.RecyclerView[2]//android.view.ViewGroup[.//android.widget.TextView[@text='$GlobalVariable.houseNameShared_Member'] and .//android.widget.TextView[@text='Chấp nhận'] and .//android.widget.TextView[@text='Từ chối']]")
+
 'Kiểm tra sự tồn tại của nhà được chia sẻ trong mục lời mời vào nhà'
 Mobile.verifyElementExist(invitationObject, 20)
 
@@ -61,11 +62,11 @@ peopleObject.addProperty('xpath', ConditionType.EQUALS, "//androidx.recyclerview
 ' Kiểm tra sự tồn tại của thành viên sau khi nhấn xác nhận trên màn hình Quản lý nhà của nhà được chia sẻ'
 Mobile.verifyElementExist(peopleObject, 10)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_trong_view_chi_tiet_nha_chia_se'), 0)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_man_danh_sach_nha'), 0)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
+Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back_man_quan_ly_chung'), 0)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Trang_Chu'), 0)
 
@@ -83,12 +84,15 @@ Mobile.verifyElementExist(houseObject_home, 10 // timeout 10s
 Mobile.tap(houseObject_home, 10)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Thiet_Bi'), 0)
+
 'Kiểm tra việc tồn tại của nhà được chia sẻ trên tab thiết bị'
 Mobile.verifyElementVisible(findTestObject('ObjectChiaSeNha/txt_Nha_My_Home_tren_tab_thiet_bi'), 0)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/Tab_Ca_Nhan'), 0)
+
 'Đăng xuất khỏi tài khoản được chia sẻ'
 WebUI.callTestCase(findTestCase('DangXuat/Dang xuat thanh cong'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Đăng nhập vào tài khoản chia sẻ'
 WebUI.callTestCase(findTestCase('DangNhap/Dang nhap thanh cong Tk chia se'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -101,6 +105,7 @@ Mobile.tap(findTestObject('ObjectChiaSeNha/popup_chon _nha_Quan_Ly_Nha'), 0)
 TestObject houseObject = new TestObject()
 
 houseObject.addProperty('xpath', ConditionType.CONTAINS, "//androidx.recyclerview.widget.RecyclerView//android.view.ViewGroup//android.widget.TextView[contains(@text,'$GlobalVariable.houseNameShared_Member')]")
+
 'Nhấn vào nhà chia sẻ trên màn Quản lý nhà chứa danh sách nhà của tài khoản'
 Mobile.tap(houseObject, 0)
 

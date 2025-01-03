@@ -24,12 +24,11 @@ import org.openqa.selenium.NoSuchElementException as NoSuchElementException
 import org.openqa.selenium.support.ui.ExpectedConditions as ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait as WebDriverWait
 
-Mobile.startExistingApplication(GlobalVariable.Environment_pro, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 tapDynamicObject('//android.widget.TextView[1]', 0)
 
 Mobile.tap(findTestObject('ObjectChiaSeNha/popup_chon _nha_Quan_Ly_Nha'), 0)
-
 
 // Sử dụng XPath để chọn phần tử nhà bất kỳ trên danh sách tại màn quản lý nhà
 TestObject houseObject = new TestObject()
@@ -68,6 +67,7 @@ Mobile.setText(findTestObject('ObjectChiaSeNha/popup_chia_se_nha_txtbox_tai_khoa
     0)
 
 Mobile.setText(findTestObject('ObjectChiaSeNha/popup_chia_se_nha_txtbox_biet_danh'), GlobalVariable.Bietdanh_Member, 0)
+
 'Nhấn chọn quyền thành viên'
 Mobile.tap(findTestObject('ObjectChiaSeNha/popup_chia_se_nha_rdbtn_thanh_vien'), 0)
 
@@ -107,9 +107,7 @@ peopleObject.addProperty('xpath', ConditionType.EQUALS, "//androidx.recyclerview
 Mobile.verifyElementExist(peopleObject, 10 // timeout 10s
     )
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
 
-Mobile.tap(findTestObject('ObjectChiaSeNha/icon_back'), 0)
 Mobile.closeApplication()
 
 def tapDynamicObject(String xpath, int timeout) {

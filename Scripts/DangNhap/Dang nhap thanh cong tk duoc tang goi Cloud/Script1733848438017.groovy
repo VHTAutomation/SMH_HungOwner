@@ -22,4 +22,5 @@ Mobile.setText(findTestObject('ObjectDangNhap/txtbox_nhap_SDT'), GlobalVariable.
 
 Mobile.setText(findTestObject('ObjectDangNhap/txtbox _nhap_mat_khau'), GlobalVariable.user_received_cloud_mk, 0)
 
-Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap'), 0)
+Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap (1)'), 0)
+

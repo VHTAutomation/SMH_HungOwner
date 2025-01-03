@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.viettel.vhome2')
+Mobile.startExistingApplication(GlobalVariable.appID, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Tab Thiết bị/Tab_Thietbi'), 0)
 
-Mobile.tap(findTestObject('Tab Thiết bị/chon_cam - 46674403b7b6e043'), 0)
+Mobile.tap(findTestObject('Tab Thiết bị/opt_chon_cam'), 0)
 
 Mobile.tap(findTestObject('Tab Thiết bị/tab_tinh_nang'), 0)
 
-Mobile.tap(findTestObject('Tab Thiết bị/btn_chiaseTB'), 0)
+Mobile.tap(findTestObject('Tab Thiết bị/btn_chia_se_thiet_bi'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Share device/title_chia_se_thiet_bi'), 0)
 
@@ -39,15 +39,11 @@ Mobile.tap(findTestObject('Share device/btn_hoan_thanh'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Share device/popup_guichiasethanhcong'), 0)
 
-Mobile.tap(findTestObject('Tab Thiết bị/btn_chiaseTB'), 0)
+Mobile.tap(findTestObject('Tab Thiết bị/btn_chia_se_thiet_bi'), 0)
 
 Mobile.verifyElementVisible(findTestObject('Tab Thiết bị/title_chiaseTBden'), 0)
 
 Mobile.verifyElementText(findTestObject('Tab Thiết bị/chia se TB den_sdt chia se'), GlobalVariable.user_share)
 
-Mobile.tap(findTestObject('Share device/btnBack'), 0)
-
-Mobile.tap(findTestObject('Share device/btnBack'), 0)
-
-WebUI.callTestCase(findTestCase('Đăng xuất/Đăng xuất thành công'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.closeApplication()
 

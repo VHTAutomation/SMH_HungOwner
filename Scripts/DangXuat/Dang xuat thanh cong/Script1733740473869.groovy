@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('ObjectDangXuat/btn_dang_xuat'), 0)
 
-Mobile.tap(findTestObject('ObjectDangXuat/popup_confrim_btn_dong_y'), 0)
+Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/btn_dong_y_popup_dang_xuat'), 0)
 

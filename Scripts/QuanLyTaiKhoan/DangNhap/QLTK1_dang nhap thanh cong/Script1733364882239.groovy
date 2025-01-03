@@ -23,7 +23,7 @@ Mobile.setText(findTestObject('ObjectDangNhap/txtfield_so_dien_thoai'), GlobalVa
 
 Mobile.setText(findTestObject('ObjectDangNhap/txtfield_mat_khau'), GlobalVariable.password, 0)
 
-Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap'), 0)
+Mobile.tap(findTestObject('ObjectDangNhap/btn_dang_nhap (1)'), 0)
 
 Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManTrangChu/ObjectTheYeuThich/btnOption'), 0)
 

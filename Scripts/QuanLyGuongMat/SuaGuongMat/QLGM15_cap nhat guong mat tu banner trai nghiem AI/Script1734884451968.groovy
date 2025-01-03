@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('ObgfghfgjfhgdhgjectManHinhChinh/ObjectManTrangChu/Obj
 
 Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManTrangChu/ObjectManKichHoatDichVuAI/btn_quan_ly_guong_mat'), 0)
 
-Mobile.tap(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManQuanLyGuongMat/opt_guong_mat'), 
+Mobile.tap(findTestObject('ObjectManHinzcsadasdasdasdtManCaNhan/ObjectManQuanLyChung/ObjectManQuanLyGuongMat/opt_guong_mat'), 
     0)
 
 Mobile.clearText(findTestObject('ObjectManHinhChinh/ObjectManCaNhan/ObjectManQuanLyChung/ObjectManQuanLyGuongMat/txtfield_ten_guong_mat'), 

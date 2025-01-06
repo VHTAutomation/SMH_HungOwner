@@ -71,12 +71,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Tài khoản test thẻ yêu thích</description>
-      <initValue>'0394361750'</initValue>
+      <initValue>'0982721290'</initValue>
       <name>user_the_yeu_thich</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Mật khẩu tài khoản test thẻ yêu thích</description>
-      <initValue>'Matkhau@1'</initValue>
+      <initValue>'123456aA@'</initValue>
       <name>password_the_yeu_thich</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0394361750'</initValue>
+      <name>user_mua_goi_cloud</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Matkhau@1'</initValue>
+      <name>pass_user_mua_goi_cloud</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

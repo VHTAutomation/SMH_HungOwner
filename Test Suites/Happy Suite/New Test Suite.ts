@@ -222,27 +222,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>598d8186-0883-42fe-a04a-0512fce19d3a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/QuanLyTaiKhoan/dang xuat thanh cong</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>81a4bbcd-815f-4eb9-a2ff-d55001376123</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Share Device/Chấp nhận chia sẻ/Chấp nhận thành công</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6233a9ee-d4ff-4c87-9155-7ab3299ae5a1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/QuanLyTaiKhoan/dang xuat thanh cong</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3410fcc9-749d-4b5a-930b-a94ae3c0c147</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -250,7 +229,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f77bec43-9328-49fb-addf-13cfe3881f90</guid>
+      <guid>d5caeeab-0ba7-42bd-a158-42243fb54e13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Share Device/Hủy chia sẻ/TK được chia sẻ chưa chấp nhận/Hủy Thành công khi chưa chấp nhận</testCaseId>
@@ -285,10 +264,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>15e2ce7e-3123-4856-b3dd-498bd40e3ae8</guid>
+      <guid>e1ec5767-7f1f-449a-a5ea-d51e29910b65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/QuanLyTaiKhoan/DangNhap/dang nhap tai khoan test the yeu thich</testCaseId>
+      <testCaseId>Test Cases/QuanLyTaiKhoan/DangNhap/dang nhap tai khoan test mua goi cloud</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -313,6 +292,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>36a54b24-9e28-4b44-ae55-155b9378289a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyTaiKhoan/dang xuat thanh cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4eacf2fe-346e-4bc7-8232-e51920b727fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -331,6 +317,97 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mã hóa/Doi mat khau ma hoa/doi mat khau thanh cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>831f9525-1ec2-49a4-8df8-6dc2d5238c8c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Lien ket thanh toan/Lien ket thanh toan thanh cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>750da62f-4d29-428e-b85c-a50c0a0337b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mua gói Cloud/Dang ky goi/Trang chu- Dich vu Camera/Dang ky dich vu/Dang ky goi gia han tu dong khi da co tklk</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>89556edb-6243-47d0-a926-6353293da880</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mua gói Cloud/Dang ky goi/Trang chu- Dich vu Camera/Dang ky dich vu/Dang ky goi gia han tu dong bang vtp gate_co tklk</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>39baa699-5649-4ef2-9c05-4e2b75920bc8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mua gói Cloud/Mua them goi cuoc/Trang chu/Dang ky dich vu/Mua them goi thanh cong bang tk viettelpay gate</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d3d282e-eddf-46ba-9a49-ef7198a9d60e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TangGoiCloud/TGC1_Tang goi Cloud thanh cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa74d2d3-f113-4b2c-9bca-e14312f5d772</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyTaiKhoan/dang xuat thanh cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe6a43fb-d907-4666-a496-819304856891</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyTaiKhoan/DangNhap/QLTK1_dang nhap thanh cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>93a36bf6-d8bb-4432-88ac-3edb82422819</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ThemGuongMat/QLGM5_Them guong mat thanh cong tu cai dat camera</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3fa020c9-bfa9-40c1-b87b-f43f98bc064f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyGuongMat/SuaGuongMat/QLGM13_cap nhat guong mat tu tab ca nhan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>289c5d79-6dd9-43ce-97f3-6160048df852</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyGuongMat/XoaGuongMat/QLGM31_xoa guong mat tu dich vu camera trang chu</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa8984c9-39d4-4b42-bb83-b0c24a3ea2ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyNguCanh/NguCanhTab/ThemNguCanhTaiTabNguCanh/QLNC16_them tu tab ngu canh lua chon NEU trang thai thiet bi thay doi</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c45f0ce5-6a3e-4f91-b6ec-b13012479771</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyNguCanh/SuaNguCanh/QLNC27_cap_nhat_ten_ngu_canh_tu_dong_thanh_cong</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f971930-fe98-4daf-96ac-05f9d8806a1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/QuanLyNguCanh/XoaNguCanh/QLNC33_xoa_ngu_canh_tu_dong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
